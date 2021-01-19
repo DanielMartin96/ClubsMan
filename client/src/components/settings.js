@@ -141,7 +141,7 @@ class Settings extends Component {
                   </Dropdown.Item>
                   <Dropdown.Item
                     onClick={() => {
-                      this.setState({ club: 34, clubName: "Newcastle United" });
+                      this.setState({ club: 34, clubName: "Newcastle" });
                     }}
                   >
                     Newcaste United

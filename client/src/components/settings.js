@@ -10,7 +10,7 @@ import history from "../history";
 class Settings extends Component {
   state = {
     club: null,
-    clubName: "Arsenal",
+    clubName: "Choose Club",
   };
 
   onSubmit = (e) => {
@@ -42,7 +42,7 @@ class Settings extends Component {
               <p>Change your team here</p>
               <Dropdown>
                 <Dropdown.Toggle id="dropdown-basic">
-                  Choose Club
+                  {this.state.clubName}
                 </Dropdown.Toggle>
                 <Dropdown.Menu>
                   <Dropdown.Item

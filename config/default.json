@@ -1,4 +1,0 @@
-{
-  "mongoURI": "mongodb+srv://Daniel:Swindon7@cluster0.yajyi.mongodb.net/ClubsMan?retryWrites=true&w=majority",
-  "jwtSecret": "mysecrettoken"
-}

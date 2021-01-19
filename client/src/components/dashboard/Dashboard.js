@@ -24,7 +24,7 @@ class Dashboard extends Component {
           display: "flex",
           flexWrap: "wrap",
           flexDirection: "row",
-          justifyContent: "space-evenly",
+          justifyContent: "center",
         }}
       >
         <Container
@@ -72,6 +72,7 @@ class Dashboard extends Component {
             flexWrap: "wrap",
             flexDirection: "row",
             justifyContent: "center",
+            overflowY: "auto",
           }}
         >
           <Table />
@@ -88,6 +89,7 @@ class Dashboard extends Component {
             flexWrap: "wrap",
             flexDirection: "row",
             justifyContent: "center",
+            overflowY: "auto",
           }}
         >
           <PlayerStats />

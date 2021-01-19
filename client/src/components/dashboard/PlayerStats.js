@@ -43,7 +43,7 @@ class PlayerStats extends Component {
 
   render() {
     return (
-      <Table striped bordered hover>
+      <Table striped bordered hover responsive>
         <thead>
           <tr>
             <th>Name</th>

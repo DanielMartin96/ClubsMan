@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { Table as LeagueTable } from "react-bootstrap";
+import { Table as LeagueTable, Container } from "react-bootstrap";
 
 import { getTable } from "../../actions/football";
 
@@ -82,7 +82,7 @@ class Table extends Component {
 
   render() {
     return (
-      <LeagueTable striped bordered hover>
+      <LeagueTable responsive striped bordered>
         <thead>
           <tr>
             <th>#</th>
@@ -90,7 +90,7 @@ class Table extends Component {
             <th>P</th>
             <th>W</th>
             <th>D</th>
-            <th>LL</th>
+            <th>L</th>
             <th>GD</th>
             <th>Points</th>
           </tr>

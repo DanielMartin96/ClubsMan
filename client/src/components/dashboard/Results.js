@@ -23,7 +23,7 @@ class Results extends Component {
           style={{
             margin: "10px",
             textAlign: "center",
-            width: "47%",
+            width: "100%",
           }}
         >
           <Card.Header>
